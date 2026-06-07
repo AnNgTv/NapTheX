@@ -10,7 +10,6 @@ import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.Collections;
 
@@ -18,7 +17,13 @@ public class AnvilMenu_seripin implements Listener {
 
     public static void seri(Player player) {
         new AnvilGUI.Builder()
-                .onComplete((target, text) -> {
+                .onClick((slot, stateSnapshot) -> {
+                    if (slot != AnvilGUI.Slot.OUTPUT) {
+                        return Collections.emptyList();
+                    }
+                    Player target = stateSnapshot.getPlayer();
+                    String text = stateSnapshot.getText();
+                    
                     Card card = NapTheXAPI.getPromptCard(target);
                     card.cardSerial(text);
                     NapTheXAPI.updatePromptCard(target, card);
@@ -34,7 +39,13 @@ public class AnvilMenu_seripin implements Listener {
 
     public static void pin(Player player) {
         new AnvilGUI.Builder()
-                .onComplete((target, text) -> {
+                .onClick((slot, stateSnapshot) -> {
+                    if (slot != AnvilGUI.Slot.OUTPUT) {
+                        return Collections.emptyList();
+                    }
+                    Player target = stateSnapshot.getPlayer();
+                    String text = stateSnapshot.getText();
+
                     Card card = NapTheXAPI.getPromptCard(target);
                     card.cardPin(text);
                     NapTheXAPI.removePromptCard(target);

@@ -22,9 +22,9 @@ public class MySQL implements DatabaseType {
         hikariConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
         hikariConfig.setUsername(Config.SQLUser());
         hikariConfig.setPassword(Config.SQLPassword());
-        hikariConfig.addProperty("cachePrepStmts", "true");
-        hikariConfig.addProperty("prepStmtCacheSize", "250");
-        hikariConfig.addProperty("prepStmtCacheSqlLimit", "2048");
+        hikariConfig.addDataSourceProperty("cachePrepStmts", "true");
+        hikariConfig.addDataSourceProperty("prepStmtCacheSize", "250");
+        hikariConfig.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");
 
         dataSource = new HikariDataSource(hikariConfig);
 

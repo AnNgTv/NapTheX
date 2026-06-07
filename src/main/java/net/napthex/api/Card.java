@@ -33,6 +33,12 @@ public class Card {
     public String transID() { return transID; }
     public String cardType() { return cardType; }
     public int cardPrice() { return cardPrice; }
+    public String cardSerial() { return SERIAL; }
+    public String cardPin() { return PIN; }
+
+    public Card cardSerial(String SERIAL) { this.SERIAL = SERIAL; return this; }
+    public Card cardPin(String PIN) { this.PIN = PIN; return this; }
+
     public String SERIAL() { return SERIAL; }
     public String PIN() { return PIN; }
     public int retry() { return retry; }

@@ -1,7 +1,7 @@
 package net.napthex.utils;
 
 import net.napthex.NapTheX;
-import net.napthex.dependency.folialib.FoliaLib;
+import com.tcoded.folialib.FoliaLib;
 import java.util.concurrent.CompletableFuture;
 
 public class Task {

@@ -2,7 +2,7 @@ package net.napthex.menu.chat;
 
 import net.napthex.NapTheX;
 import net.napthex.config.Language;
-import net.napthex.NapTheXAPI;
+import net.napthex.api.NapTheXAPI;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
