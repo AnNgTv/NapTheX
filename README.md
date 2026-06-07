@@ -45,3 +45,5 @@ NapTheX là một plugin Minecraft mạnh mẽ hỗ trợ tích hợp hệ thố
 ## 📞 Hỗ trợ
 
 Nếu có bất kỳ lỗi nào, vui lòng liên hệ hỗ trợ tại [thesieutoc.net](https://thesieutoc.net).
+[discord.com](@an26_09_)
+[facebook.com](https://facebook.com/anngtvvn)
