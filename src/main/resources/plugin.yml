@@ -1,0 +1,18 @@
+name: NapTheX
+author: DuongZX
+main: net.napthex.NapTheX
+version: '1.0.0'
+website: 'https://thesieutoc.net'
+softdepend:
+  - PlaceholderAPI
+folia-supported: true
+commands:
+  napthex:
+    description: Lệnh của quản trị viên.
+    usage: /<commands>
+    aliases: [ ntx ]
+    permission: napthex.admin
+  napthe:
+    description: Lệnh nạp thẻ.
+    usage: /<commands>
+    aliases: [ donate, ungho, bank ]

@@ -1,0 +1,11 @@
+enable: true
+milestones:
+  100000:
+    - "console:broadcast {player} đã đạt mốc nạp 100k!"
+    - "console:give {player} diamond 10"
+  500000:
+    - "console:broadcast {player} đã đạt mốc nạp 500k!"
+    - "console:give {player} diamond 64"
+  1000000:
+    - "console:broadcast {player} đã đạt mốc nạp 1 triệu!"
+    - "console:give {player} netherite_ingot 5"
