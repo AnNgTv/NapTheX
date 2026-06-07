@@ -38,12 +38,14 @@ NapTheX là một plugin Minecraft mạnh mẽ hỗ trợ tích hợp hệ thố
 
 ## 🛠 Yêu cầu
 
-- Java 21 trở lên.
-- Minecraft Server 1.21.x (Hỗ trợ cả Folia).
+- Java 8 trở lên.
+- Minecraft Server 1.12-1.21+ (Hỗ trợ cả Folia).
 - (Tùy chọn) [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/).
 
 ## 📞 Hỗ trợ
 
 Nếu có bất kỳ lỗi nào, vui lòng liên hệ hỗ trợ tại [thesieutoc.net](https://thesieutoc.net).
-[discord.com](@an26_09_)
-[facebook.com](https://facebook.com/anngtvvn)
+
+[Discord](@an26_09_)
+
+[Phở Bò](https://facebook.com/anngtvvn)
