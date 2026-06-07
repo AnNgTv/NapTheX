@@ -1,8 +1,8 @@
-# Chỉ bật khi có yêu cầu từ staff Thesieutoc
+# Chỉ bật khi có yêu cầu từ staff NapTheX
 debug: false
 
 #Nhập API để sử dụng plugin
-TheSieuToc-API:
+NapTheX-API:
   key: ''
   secret: ''
 

@@ -14,23 +14,23 @@ public class Config {
     }
 
     public static String APIKey() {
-        return NapTheX.getInstance().getConfig().getString("TheSieuToc-API.key", "");
+        return NapTheX.getInstance().getConfig().getString("NapTheX-API.key", "");
     }
 
     public static String APISecret() {
-        return NapTheX.getInstance().getConfig().getString("TheSieuToc-API.secret", "");
+        return NapTheX.getInstance().getConfig().getString("NapTheX-API.secret", "");
     }
 
     public static boolean callBack() {
-        return NapTheX.getInstance().getConfig().getBoolean("TheSieuToc-API.callback", true);
+        return NapTheX.getInstance().getConfig().getBoolean("NapTheX-API.callback", true);
     }
 
     public static boolean customURL() {
-        return NapTheX.getInstance().getConfig().getBoolean("TheSieuToc-API.custom.enable", false);
+        return NapTheX.getInstance().getConfig().getBoolean("NapTheX-API.custom.enable", false);
     }
 
     public static String customURLValue() {
-        return NapTheX.getInstance().getConfig().getString("TheSieuToc-API.custom.url", "");
+        return NapTheX.getInstance().getConfig().getString("NapTheX-API.custom.url", "");
     }
 
     public static boolean SQLEnable() {
@@ -49,7 +49,7 @@ public class Config {
         return NapTheX.getInstance().getConfig().getString("mysql.user", "");
     }
 
-    public static String SQLPass() {
+    public static String SQLPassword() {
         return NapTheX.getInstance().getConfig().getString("mysql.password", "");
     }
 
